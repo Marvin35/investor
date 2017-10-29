@@ -1,0 +1,53 @@
+.investorlogo {
+    color: #008000;
+    font-size: 40px;
+    margin-left: -40;
+};
+
+.tabinline {
+   list-style-type: none;
+    text-decoration: none;
+};
+
+.backgroundcolor {
+    background-color: darkgray;
+};
+    
+ul#display-inline-block-example,
+ul#display-inline-block-example li {
+/* Setting a common base */
+margin: 0;
+padding: 0;
+}
+ 
+ul#display-inline-block-example li {
+display: inline-block;
+}
+
+.lidesign {
+    margin-top: -31;
+    margin-left: -31;
+    font-size: 20px;
+    color: #00b300;
+}
+
+.browsestyle {
+    margin-right: 40px;
+    font-size: 20px;
+    color: #00b300;
+    padding-left: 450;
+};
+
+/* can not delete .forumstyle, it needs to be included */
+.forumstyle {
+    font-size: 20px;
+    clear: both;
+    padding-left: 300;
+}
+
+
+.aboutstyle {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #00b300;
+}

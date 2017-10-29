@@ -1,0 +1,116 @@
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 480px;
+}
+
+
+itempepsi:hover .playdesign{ display: inline-block}{
+    
+    position: sticky;
+    display: none; 
+    top: 0%;
+    margin: 0 auto;
+    left: 0px;
+    z-index: 100;
+    right: 0px;
+    opacity: 0.9;    
+} 
+
+
+div.itempepsi {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 480px;
+}
+
+
+img {
+    width: 400px;
+    height: 400px;
+    background-origin: inherit;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+}
+
+/* Play design */
+
+.videoplay img {
+    
+    height: 100px;
+    width: 100px;
+    background-color: none;
+    position: absolute;
+    display: inline;
+    top: 270px;
+    left: 380px;
+    z-index: 1;
+}
+
+.videoplay img:active {
+    background-color: red;
+}
+
+.videoplay1 img {
+    
+    height: 100px;
+    width: 100px;
+    margin-left: 480px;
+    background-color: none;
+    position: absolute;
+    display: inline;
+    top: 275px;
+    left: 390px;
+    z-index: 1;
+}
+
+.videoplay1 img:active {
+    background-color: red;
+}
+
+
+.videoplay3 img {
+    
+    height: 100px;
+    width: 100px;
+    margin-top:450px;
+    margin-left: -75px;
+    background-color: none;
+    position: absolute;
+    display: inline;
+    top: 275px;
+    left: 460px;
+    z-index: 1;
+}
+
+.videoplay3 img:active {
+    background-color: red;
+}
+
+.videoplay4 img {
+    
+    height: 100px;
+    width: 100px;
+    margin-top: 465px;
+    margin-left: 405px;
+    background-color: none;
+    position: absolute;
+    display: inline;
+    top: 275px;
+    left: 460px;
+    z-index: 1;
+}
+
+.videoplay4 img:active {
+    background-color: red;
+}
